@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart",
+      "brokenLocator": "//button[@name\u003d\u0027save_to_cart\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@name\u003d\u0027save_to_cart\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240211_233630/1_add_cart/1_add_cart/20240211_233630/Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart_attributes.png"
+    }
+  ]
+}

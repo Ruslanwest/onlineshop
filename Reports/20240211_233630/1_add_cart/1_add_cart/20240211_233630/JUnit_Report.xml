@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1_add_cart" time="141.837" tests="3" failures="0" errors="0">
+   <testsuite name="1_add_cart" tests="3" failures="0" errors="0" time="141.837" skipped="0" timestamp="11-02-2024T23:36:43" hostname="BRI - 192.168.0.105" id="Test Suites/1_add_cart/1_add_cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BFLP\\Bootcamp LPPI\\onlineshop\\onlineshop\\Reports\\20240211_233630\\1_add_cart\\1_add_cart\\20240211_233630"/>
+         <property name="logFiles" value="D:\\BFLP\\Bootcamp LPPI\\onlineshop\\onlineshop\\Reports\\20240211_233630\\1_add_cart\\1_add_cart\\20240211_233630\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BRI - 192.168.0.105"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="d13aaaed72045464c23bebd1a4fda32c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/1_our_product/1_speakers" time="49.178" classname="Test Cases/1_our_product/1_speakers" status="PASSED">
+         <system-out><![CDATA[11-02-2024T23:36:44 - [TEST_CASE][PASSED] - Test Cases/1_our_product/1_speakers: Test Cases/1_our_product/1_speakers
+
+11-02-2024T23:36:45 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+11-02-2024T23:36:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T23:36:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T23:37:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+11-02-2024T23:37:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2024T23:37:01 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+11-02-2024T23:37:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-02-2024T23:37:01 - [MESSAGE][PASSED] - Current window maximized
+
+11-02-2024T23:37:01 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+11-02-2024T23:37:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2024T23:37:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1_speakers/Page_Advantage Shopping/1_Shop_ Now"), 10): Object 'Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now' is clickable
+
+11-02-2024T23:37:07 - [MESSAGE][PASSED] - Object 'Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now' is clickable
+
+11-02-2024T23:37:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now")): Object: 'Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now' is clicked on
+
+11-02-2024T23:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now' is clicked on
+
+11-02-2024T23:37:08 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III"), 10): Object 'Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III' is clickable
+
+11-02-2024T23:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III' is clickable
+
+11-02-2024T23:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III")): Object: 'Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III' is clicked on
+
+11-02-2024T23:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III' is clicked on
+
+11-02-2024T23:37:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1_speakers/Page_Advantage Shopping/3_Save_To_Cart"), 10): Object 'Object Repository/1_speakers/Page_Advantage Shopping/3_Save_To_Cart' is clickable
+
+11-02-2024T23:37:33 - [MESSAGE][PASSED] - Object 'Object Repository/1_speakers/Page_Advantage Shopping/3_Save_To_Cart' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2_special_offer/1_special_offer" time="53.4" classname="Test Cases/2_special_offer/1_special_offer" status="PASSED">
+         <system-out><![CDATA[11-02-2024T23:37:33 - [TEST_CASE][PASSED] - Test Cases/2_special_offer/1_special_offer: Test Cases/2_special_offer/1_special_offer
+
+11-02-2024T23:37:34 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+11-02-2024T23:37:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-02-2024T23:37:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T23:37:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T23:37:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+11-02-2024T23:37:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2024T23:37:44 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+11-02-2024T23:37:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-02-2024T23:37:44 - [MESSAGE][PASSED] - Current window maximized
+
+11-02-2024T23:37:44 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+11-02-2024T23:37:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2024T23:37:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers"), 10): Object 'Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers' is clickable
+
+11-02-2024T23:37:45 - [MESSAGE][PASSED] - Object 'Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers' is clickable
+
+11-02-2024T23:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers")): Object: 'Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers' is clicked on
+
+11-02-2024T23:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers' is clicked on
+
+11-02-2024T23:37:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer"), 10): Object 'Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer' is clickable
+
+11-02-2024T23:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer' is clickable
+
+11-02-2024T23:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer")): Object: 'Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer' is clicked on
+
+11-02-2024T23:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer' is clicked on
+
+11-02-2024T23:37:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart"), 10): Object 'Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart' is clickable
+
+11-02-2024T23:38:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@name='save_to_cart']'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-02-2024T23:38:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart'. Try using Self-healing.
+
+11-02-2024T23:38:25 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//button[@name='save_to_cart']'.
+
+11-02-2024T23:38:26 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/BFLP/Bootcamp LPPI/onlineshop/onlineshop/Reports/Self-healing/Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart_attributes.png
+
+11-02-2024T23:38:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart' was broken. Propose an alternative one: '//button[@name='save_to_cart']'.
+
+11-02-2024T23:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart' is clickable
+
+11-02-2024T23:38:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart")): Object: 'Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart' is clicked on
+
+11-02-2024T23:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3_popular_items/1_popular_items" time="38.599" classname="Test Cases/3_popular_items/1_popular_items" status="PASSED">
+         <system-out><![CDATA[11-02-2024T23:38:27 - [TEST_CASE][PASSED] - Test Cases/3_popular_items/1_popular_items: Test Cases/3_popular_items/1_popular_items
+
+11-02-2024T23:38:27 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+11-02-2024T23:38:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-02-2024T23:38:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T23:38:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T23:38:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+11-02-2024T23:38:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2024T23:38:42 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+11-02-2024T23:38:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-02-2024T23:38:42 - [MESSAGE][PASSED] - Current window maximized
+
+11-02-2024T23:38:42 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+11-02-2024T23:38:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2024T23:38:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items"), 10): Object 'Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items' is clickable
+
+11-02-2024T23:38:44 - [MESSAGE][PASSED] - Object 'Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items' is clickable
+
+11-02-2024T23:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items")): Object: 'Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items' is clicked on
+
+11-02-2024T23:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items' is clicked on
+
+11-02-2024T23:38:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items"), 10): Object 'Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items' is clickable
+
+11-02-2024T23:38:47 - [MESSAGE][PASSED] - Object 'Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items' is clickable
+
+11-02-2024T23:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items")): Object: 'Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items' is clicked on
+
+11-02-2024T23:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items' is clicked on
+
+11-02-2024T23:38:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart"), 10): Object 'Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart' is clickable
+
+11-02-2024T23:39:04 - [MESSAGE][PASSED] - Object 'Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart' is clickable
+
+11-02-2024T23:39:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart")): Object: 'Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart' is clicked on
+
+11-02-2024T23:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2024T23:36:43 - [TEST_SUITE][PASSED] - 1_add_cart: Test Cases/3_popular_items/1_popular_items]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

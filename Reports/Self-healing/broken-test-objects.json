@@ -1,3 +1,44 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now",
+      "brokenLocator": "//*[@id \u003d \u0027speakersImg\u0027 and (text() \u003d \u0027Shop Now\u0027 or . \u003d \u0027Shop Now\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027speakersImg\u0027]/div/label",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now",
+      "brokenLocator": "//*[@id \u003d \u0027speakersImg\u0027 and (text() \u003d \u0027Shop Now\u0027 or . \u003d \u0027Shop Now\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SPEAKERS\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III",
+      "brokenLocator": "//img[@id\u003d\u002720\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@id\u003d\u002720\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart",
+      "brokenLocator": "//button[@name\u003d\u0027save_to_cart\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@name\u003d\u0027save_to_cart\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart_attributes.png"
+    }
+  ]
 }

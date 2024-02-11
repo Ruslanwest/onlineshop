@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now",
+      "brokenLocator": "//*[@id \u003d \u0027speakersImg\u0027 and (text() \u003d \u0027Shop Now\u0027 or . \u003d \u0027Shop Now\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027speakersImg\u0027]/div/label",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240211_232953/1_add_cart/1_add_cart/20240211_232953/Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now",
+      "brokenLocator": "//*[@id \u003d \u0027speakersImg\u0027 and (text() \u003d \u0027Shop Now\u0027 or . \u003d \u0027Shop Now\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SPEAKERS\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240211_232953/1_add_cart/1_add_cart/20240211_232953/Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now_neighbor.png"
+    }
+  ]
+}

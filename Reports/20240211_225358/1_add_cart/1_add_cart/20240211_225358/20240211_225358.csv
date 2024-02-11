@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1_add_cart,Chrome 121.0.0.0,,,11-02-2024 22:54:13,11-02-2024 22:57:04,2m - 51.768s,FAILED
+,,,,,,,
+Test Cases/1_our_product/1_speakers,Chrome 121.0.0.0,,,11-02-2024 22:55:07,11-02-2024 22:55:23,15.974s,FAILED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,11-02-2024 22:55:07,11-02-2024 22:55:14,6.867s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,11-02-2024 22:55:14,11-02-2024 22:55:17,3.536s,PASSED
+"click(findTestObject(""Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now""))",Chrome 121.0.0.0,,,11-02-2024 22:55:17,11-02-2024 22:55:23,5.497s,FAILED
+,,,,,,,
+Test Cases/2_special_offer/1_special_offer,Chrome 121.0.0.0,,,11-02-2024 22:55:23,11-02-2024 22:56:11,48.455s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,11-02-2024 22:55:23,11-02-2024 22:55:33,9.864s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,11-02-2024 22:55:33,11-02-2024 22:55:33,0.180s,PASSED
+"click(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers""))",Chrome 121.0.0.0,,,11-02-2024 22:55:33,11-02-2024 22:55:37,4.121s,PASSED
+"click(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer""))",Chrome 121.0.0.0,,,11-02-2024 22:55:37,11-02-2024 22:56:03,25.249s,PASSED
+"click(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart""))",Chrome 121.0.0.0,,,11-02-2024 22:56:03,11-02-2024 22:56:11,8.770s,PASSED
+,,,,,,,
+Test Cases/3_popular_items/1_popular_items,Chrome 121.0.0.0,,,11-02-2024 22:56:11,11-02-2024 22:57:04,52.794s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,11-02-2024 22:56:12,11-02-2024 22:56:22,10.047s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,11-02-2024 22:56:22,11-02-2024 22:56:22,0.387s,PASSED
+"click(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items""))",Chrome 121.0.0.0,,,11-02-2024 22:56:22,11-02-2024 22:56:26,4.105s,PASSED
+"click(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items""))",Chrome 121.0.0.0,,,11-02-2024 22:56:26,11-02-2024 22:56:29,3.056s,PASSED
+"click(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart""))",Chrome 121.0.0.0,,,11-02-2024 22:56:29,11-02-2024 22:57:04,34.803s,PASSED

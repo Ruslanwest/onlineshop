@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1_add_cart,Chrome 121.0.0.0,,,11-02-2024 22:45:43,11-02-2024 22:49:00,3m - 17.015s,FAILED
+,,,,,,,
+Test Cases/1_our_product/1_speakers,Chrome 121.0.0.0,,,11-02-2024 22:46:40,11-02-2024 22:46:56,15.794s,FAILED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,11-02-2024 22:46:40,11-02-2024 22:46:46,6.392s,PASSED
+"click(findTestObject(""Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now""))",Chrome 121.0.0.0,,,11-02-2024 22:46:46,11-02-2024 22:46:56,9.336s,FAILED
+,,,,,,,
+Test Cases/2_special_offer/1_special_offer,Chrome 121.0.0.0,,,11-02-2024 22:47:40,11-02-2024 22:47:54,13.522s,FAILED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,11-02-2024 22:47:40,11-02-2024 22:47:52,11.406s,PASSED
+"click(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers""))",Chrome 121.0.0.0,,,11-02-2024 22:47:52,11-02-2024 22:47:54,2.025s,FAILED
+,,,,,,,
+Test Cases/3_popular_items/1_popular_items,Chrome 121.0.0.0,,,11-02-2024 22:48:45,11-02-2024 22:49:00,14.692s,FAILED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,11-02-2024 22:48:45,11-02-2024 22:48:57,11.290s,PASSED
+"click(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items""))",Chrome 121.0.0.0,,,11-02-2024 22:48:57,11-02-2024 22:49:00,3.359s,FAILED

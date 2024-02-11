@@ -90,7 +90,7 @@ class initial {
 		// Dapatkan alamat web dari GlobalVariable
 		def alamatWeb = GlobalVariable.url
 		// Buka browser dengan alamat web
-		WebUI.openBrowser(alamatWeb) 
+		WebUI.openBrowser(alamatWeb)
 		WebUI.waitForPageLoad(60)
 	}
 }

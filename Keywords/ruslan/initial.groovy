@@ -80,17 +80,17 @@ class initial {
 		List<WebElement> selectedRows = mailList.findElements(By.xpath("./" + outerTagName + "/tr"))
 		return selectedRows
 	}
-	
+
 	/**
 	 *  Untuk Inisiasi browser dan alamat
 	 */
-	
+
 	@Keyword
 	def openBrowser() {
-		    // Dapatkan alamat web dari GlobalVariable
-			def alamatWeb = GlobalVariable.url
-			// Buka browser dengan alamat web
-			WebUI.openBrowser(alamatWeb)
-		}
-	
+		// Dapatkan alamat web dari GlobalVariable
+		def alamatWeb = GlobalVariable.url
+		// Buka browser dengan alamat web
+		WebUI.openBrowser(alamatWeb) 
+		WebUI.waitForPageLoad(60)
+	}
 }

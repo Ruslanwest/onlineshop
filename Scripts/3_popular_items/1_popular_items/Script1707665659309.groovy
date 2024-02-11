@@ -23,16 +23,18 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(60)
 
-WebUI.waitForElementClickable(findTestObject('1_speakers/Page_Advantage Shopping/1_Shop_ Now'), 10)
-
-WebUI.click(findTestObject('Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now'))
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III'), 
+WebUI.waitForElementClickable(findTestObject('Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items'), 
     10)
 
-WebUI.click(findTestObject('Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III'))
+WebUI.click(findTestObject('Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/1_speakers/Page_Advantage Shopping/3_Save_To_Cart'), 10)
+WebUI.waitForElementClickable(findTestObject('Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items'), 
+    10)
 
+WebUI.click(findTestObject('Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items'))
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart'), 
+    10)
+
+WebUI.click(findTestObject('Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart'))
 

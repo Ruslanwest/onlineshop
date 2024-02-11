@@ -17,13 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CustomKeywords.'ruslan.initial.openBrowser'()
 
-WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
+WebUI.maximizeWindow()
+
+WebUI.waitForPageLoad(60)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers'), 
+    10)
 
 WebUI.click(findTestObject('Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers'))
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer'), 
+    10)
+
 WebUI.click(findTestObject('Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart'), 
+    10)
 
 WebUI.click(findTestObject('Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart'))
 

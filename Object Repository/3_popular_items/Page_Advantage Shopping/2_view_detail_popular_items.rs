@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>1_Shop_ Now</name>
+   <name>2_view_detail_popular_items</name>
    <tag></tag>
-   <elementGuidId>bc0f2453-b5d2-4774-b326-3dd1271118c0</elementGuidId>
+   <elementGuidId>8d5d3d8d-0bd6-4cab-9b7f-93e9bead3f9c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='speakersImg']/div/label</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'speakersImg']</value>
+         <value>//label[@id='details_16']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#speakersLink</value>
+         <value>#details_16</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,118 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>b46ee159-fee5-48bc-baa7-380c4c18e1ef</webElementGuid>
+      <webElementGuid>0ee2bc19-694e-42fd-8d5c-471b2465d4b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>speakersImg</value>
-      <webElementGuid>b3bbb985-ea4f-47b1-b603-69a777361ff9</webElementGuid>
+      <value>details_16</value>
+      <webElementGuid>5904d09b-094b-4a06-b0e0-e135d0196ae3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>shop_nowSub roboto-regular ng-scope</value>
-      <webElementGuid>17e89ee4-c240-428c-9620-048ca8b45572</webElementGuid>
+      <value>shop_nowSub viewDetail ng-scope</value>
+      <webElementGuid>4d0abc6d-2c5c-4888-8b1f-798b869fb3b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>translate</name>
       <type>Main</type>
-      <value>Shop_Now</value>
-      <webElementGuid>5811820b-c27e-44c5-a9c5-40b73371e5d0</webElementGuid>
+      <value>View_details</value>
+      <webElementGuid>6dd80d67-ebf8-4a71-9e66-89a2f99828fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shop Now</value>
-      <webElementGuid>ce539e3a-bf5f-4da0-97ac-903446c4ca4d</webElementGuid>
+      <value>View Details</value>
+      <webElementGuid>d5af8bce-df00-4d71-b8db-21d428872530</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;speakersLink&quot;)</value>
-      <webElementGuid>a75a5294-ad5d-49ea-adf1-1d9f7fdbd36e</webElementGuid>
+      <value>id(&quot;details_16&quot;)</value>
+      <webElementGuid>fe5c17c0-a9ba-4901-9bf3-05e527a20b0c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='speakersLink']</value>
-      <webElementGuid>e2f3ab20-663f-4998-b907-1a35be07ab36</webElementGuid>
+      <value>//label[@id='details_16']</value>
+      <webElementGuid>5fbf884d-ce77-4b2f-951a-9f24a0d2e5db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='speakersImg']/div/label</value>
-      <webElementGuid>3dbbdc56-92a6-4f68-b05d-0d51334089e9</webElementGuid>
+      <value>//article[@id='popular_items']/div/div/a/label</value>
+      <webElementGuid>db3426ae-27ca-4f43-a8df-47791c9cbd60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SPEAKERS'])[1]/following::label[1]</value>
-      <webElementGuid>1d8e9747-61f4-47a8-848d-48465ec6ce0d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='POPULAR ITEMS'])[2]/following::label[1]</value>
+      <webElementGuid>7675e1d4-0262-47b2-a485-c3b2f0da0bc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEMO'])[1]/following::label[1]</value>
-      <webElementGuid>b88dd91f-1d3a-4dbc-af6a-1288a432df76</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EXPLORE NOW'])[4]/following::label[1]</value>
+      <webElementGuid>43afcd55-01b7-46ba-bcfa-2431da8df1a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TABLETS'])[1]/preceding::label[1]</value>
-      <webElementGuid>19018352-a541-4466-bafd-e72ac1c336f6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Details'])[2]/preceding::label[1]</value>
+      <webElementGuid>27a16a67-7ca7-4c46-b9e4-479abffd69e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop Now'])[2]/preceding::label[1]</value>
-      <webElementGuid>62bd7bf3-56e1-49af-821b-6b1b1bfe0b76</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Details'])[3]/preceding::label[2]</value>
+      <webElementGuid>8333f24e-4f21-4978-9b16-e11988bd5b9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Shop Now']/parent::*</value>
-      <webElementGuid>96128c6a-5c37-4dc8-b99f-eabb7c406e6a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='View Details']/parent::*</value>
+      <webElementGuid>caf0cb7a-1c7b-4c13-ade9-d4eaaab75cec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/label</value>
-      <webElementGuid>46283311-441a-49cf-82bc-76daf549748c</webElementGuid>
+      <value>//a/label</value>
+      <webElementGuid>31856283-a86b-4230-b76c-014e9ac6c7ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[@id = 'speakersLink' and (text() = 'Shop Now' or . = 'Shop Now')]</value>
-      <webElementGuid>6e891746-fe26-4655-81e5-96528cf03ad3</webElementGuid>
+      <value>//label[@id = 'details_16' and (text() = 'View Details' or . = 'View Details')]</value>
+      <webElementGuid>e9410e9a-6829-4a36-9551-460f1984a7d0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,36 @@
+1
+00:00:00,227 --> 00:00:10,987
+1. ruslan.initial.openBrowser()
+
+2
+00:00:11,003 --> 00:00:11,340
+5. maximizeWindow()
+
+3
+00:00:11,359 --> 00:00:11,418
+9. waitForPageLoad(60)
+
+4
+00:00:11,436 --> 00:00:12,569
+13. waitForElementClickable(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers"), 10)
+
+5
+00:00:12,581 --> 00:00:15,854
+17. click(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers"))
+
+6
+00:00:15,882 --> 00:00:16,656
+21. waitForElementClickable(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer"), 10)
+
+7
+00:00:16,687 --> 00:00:17,474
+25. click(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer"))
+
+8
+00:00:17,498 --> 00:00:21,419
+29. waitForElementClickable(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart"), 10)
+
+9
+00:00:21,437 --> 00:00:22,142
+33. click(findTestObject("Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart"))
+

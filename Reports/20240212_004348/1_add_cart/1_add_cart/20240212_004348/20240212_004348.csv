@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1_add_cart,Chrome 121.0.0.0,,,12-02-2024 00:44:01,12-02-2024 00:45:26,1m - 25.299s,PASSED
+,,,,,,,
+Test Cases/1_our_product/1_speakers,Chrome 121.0.0.0,,,12-02-2024 00:44:01,12-02-2024 00:44:38,36.597s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 00:44:03,12-02-2024 00:44:16,12.892s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,12-02-2024 00:44:16,12-02-2024 00:44:16,0.428s,PASSED
+waitForPageLoad(60),Chrome 121.0.0.0,,,12-02-2024 00:44:16,12-02-2024 00:44:16,0.297s,PASSED
+"waitForElementClickable(findTestObject(""1_speakers/Page_Advantage Shopping/1_Shop_ Now""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:44:16,12-02-2024 00:44:21,4.679s,PASSED
+"click(findTestObject(""Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now""))",Chrome 121.0.0.0,,,12-02-2024 00:44:21,12-02-2024 00:44:22,0.708s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:44:22,12-02-2024 00:44:27,4.980s,PASSED
+"click(findTestObject(""Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III""))",Chrome 121.0.0.0,,,12-02-2024 00:44:27,12-02-2024 00:44:27,0.706s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1_speakers/Page_Advantage Shopping/3_Save_To_Cart""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:44:27,12-02-2024 00:44:36,8.395s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 00:44:38,12-02-2024 00:44:38,0.000s,PASSED
+,,,,,,,
+Test Cases/2_special_offer/1_special_offer,Chrome 121.0.0.0,,,12-02-2024 00:44:38,12-02-2024 00:45:03,24.427s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 00:44:38,12-02-2024 00:44:49,10.778s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,12-02-2024 00:44:49,12-02-2024 00:44:50,0.353s,PASSED
+waitForPageLoad(60),Chrome 121.0.0.0,,,12-02-2024 00:44:50,12-02-2024 00:44:50,0.074s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:44:50,12-02-2024 00:44:51,1.147s,PASSED
+"click(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/1_special_offers""))",Chrome 121.0.0.0,,,12-02-2024 00:44:51,12-02-2024 00:44:54,3.301s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:44:54,12-02-2024 00:44:55,0.804s,PASSED
+"click(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/2_see_offer""))",Chrome 121.0.0.0,,,12-02-2024 00:44:55,12-02-2024 00:44:56,0.811s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:44:56,12-02-2024 00:45:00,3.932s,PASSED
+"click(findTestObject(""Object Repository/2_special_offers/Page_Advantage Shopping/3_save_to_cart""))",Chrome 121.0.0.0,,,12-02-2024 00:45:00,12-02-2024 00:45:00,0.700s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 00:45:03,12-02-2024 00:45:03,0.000s,PASSED
+,,,,,,,
+Test Cases/3_popular_items/1_popular_items,Chrome 121.0.0.0,,,12-02-2024 00:45:03,12-02-2024 00:45:26,23.681s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 00:45:03,12-02-2024 00:45:13,10.218s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,12-02-2024 00:45:13,12-02-2024 00:45:13,0.286s,PASSED
+waitForPageLoad(60),Chrome 121.0.0.0,,,12-02-2024 00:45:13,12-02-2024 00:45:13,0.067s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:45:13,12-02-2024 00:45:15,1.217s,PASSED
+"click(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/1_popular_items""))",Chrome 121.0.0.0,,,12-02-2024 00:45:15,12-02-2024 00:45:17,2.537s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:45:17,12-02-2024 00:45:18,0.617s,PASSED
+"click(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/2_view_detail_popular_items""))",Chrome 121.0.0.0,,,12-02-2024 00:45:18,12-02-2024 00:45:19,0.776s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart""), 10)",Chrome 121.0.0.0,,,12-02-2024 00:45:19,12-02-2024 00:45:23,4.707s,PASSED
+"click(findTestObject(""Object Repository/3_popular_items/Page_Advantage Shopping/3_save_to_cart""))",Chrome 121.0.0.0,,,12-02-2024 00:45:23,12-02-2024 00:45:24,0.684s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 00:45:26,12-02-2024 00:45:26,0.000s,PASSED

@@ -1,0 +1,32 @@
+1
+00:00:00,533 --> 00:00:13,413
+1. ruslan.initial.openBrowser()
+
+2
+00:00:13,451 --> 00:00:13,820
+5. maximizeWindow()
+
+3
+00:00:13,882 --> 00:00:14,159
+9. waitForPageLoad(60)
+
+4
+00:00:14,181 --> 00:00:18,849
+13. waitForElementClickable(findTestObject("1_speakers/Page_Advantage Shopping/1_Shop_ Now"), 10)
+
+5
+00:00:18,862 --> 00:00:19,550
+17. click(findTestObject("Object Repository/1_speakers/Page_Advantage Shopping/1_Shop_ Now"))
+
+6
+00:00:19,570 --> 00:00:24,541
+21. waitForElementClickable(findTestObject("Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III"), 10)
+
+7
+00:00:24,555 --> 00:00:25,216
+25. click(findTestObject("Object Repository/1_speakers/Page_Advantage Shopping/2_Bose_Soundlink_Bluetooth_Speaker_III"))
+
+8
+00:00:25,255 --> 00:00:33,659
+29. waitForElementClickable(findTestObject("Object Repository/1_speakers/Page_Advantage Shopping/3_Save_To_Cart"), 10)
+

@@ -23,33 +23,29 @@ WebUI.click(findTestObject('Object Repository/6_user/Page_Advantage Shopping/1_p
 
 WebUI.click(findTestObject('Object Repository/6_user/Page_Advantage Shopping/2_create_new_account'))
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/3_username'), 'ruslanwest')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/3_username'), username)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/4_email'), 'r@r.com')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/4_email'), email)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/5_password'), 'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/5_password'), password)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/6_confirm_password'), 'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/6_confirm_password'), confirm_passwoed)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/7_first_name'), 'ruslan')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/7_first_name'), first_name)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/8_last_name'), 'ruslan')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/8_last_name'), last_name)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/9_phone'), '085766')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/9_phone'), phone)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/6_user/Page_Advantage Shopping/10_country'), 
-    'object:250', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/6_user/Page_Advantage Shopping/10_country'), country, true)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/11_city'), 'Depok')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/11_city'), city)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/12_address'), 
-    'depok')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/12_address'), address)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/13_state'), 
-    'jawa barat')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/13_state'), state)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/14_poscal_code'), 
-    '16452')
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/14_poscal_code'), poscal_code)
 
 WebUI.click(findTestObject('Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers'))
 

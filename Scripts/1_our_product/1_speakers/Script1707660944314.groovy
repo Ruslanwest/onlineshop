@@ -34,3 +34,5 @@ WebUI.click(findTestObject('Object Repository/1_speakers/Page_Advantage Shopping
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/1_speakers/Page_Advantage Shopping/3_Save_To_Cart'), 10)
 
+
+

@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/4
 
 WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/5_password'), password)
 
-WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/6_confirm_password'), confirm_passwoed)
+WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/6_confirm_password'), confirm_password)
 
 WebUI.setText(findTestObject('Object Repository/6_user/Page_Advantage Shopping/7_first_name'), first_name)
 

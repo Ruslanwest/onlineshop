@@ -1,0 +1,40 @@
+1
+00:00:00,003 --> 00:00:12,029
+1. ruslan.initial.openBrowser()
+
+2
+00:00:12,040 --> 00:00:17,113
+5. click(findTestObject("6_user/Page_Advantage Shopping/1_profile"))
+
+3
+00:00:17,127 --> 00:00:18,196
+9. setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username)
+
+4
+00:00:18,210 --> 00:00:20,015
+13. setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password)
+
+5
+00:00:20,030 --> 00:00:21,185
+17. click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in"))
+
+6
+00:00:21,199 --> 00:00:21,258
+21. data = findTestData("2_login").getValue(1, 1)
+
+7
+00:00:21,277 --> 00:00:21,370
+25. to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field")
+
+8
+00:00:21,399 --> 00:00:23,799
+29. usernameFromObjectRepository = getText(to)
+
+9
+00:00:23,812 --> 00:00:23,816
+33. if (data.equals(usernameFromObjectRepository))
+
+10
+00:00:23,830 --> 00:00:23,842
+2. comment("Login gagal")
+

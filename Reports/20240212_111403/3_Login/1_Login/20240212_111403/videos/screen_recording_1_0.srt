@@ -1,0 +1,28 @@
+1
+00:00:00,472 --> 00:00:11,168
+1. ruslan.initial.openBrowser()
+
+2
+00:00:11,197 --> 00:00:15,023
+5. click(findTestObject("6_user/Page_Advantage Shopping/1_profile"))
+
+3
+00:00:15,042 --> 00:00:16,355
+9. setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username)
+
+4
+00:00:16,373 --> 00:00:18,085
+13. setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password)
+
+5
+00:00:18,100 --> 00:00:18,762
+17. click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in"))
+
+6
+00:00:18,777 --> 00:00:18,785
+21. data = "input data"
+
+7
+00:00:18,798 --> 00:00:18,932
+25. usernameFromDataSet = data["username"]
+

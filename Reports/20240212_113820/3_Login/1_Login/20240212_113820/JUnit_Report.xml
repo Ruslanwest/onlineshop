@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1_Login" time="191.379" tests="8" failures="0" errors="0">
+   <testsuite name="1_Login" tests="8" failures="0" errors="0" time="191.379" skipped="0" timestamp="12-02-2024T11:38:30" hostname="BRI - LAPTOP-GLHGBC14" id="Test Suites/3_Login/1_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BFLP\\Bootcamp LPPI\\onlineshop\\onlineshop\\Reports\\20240212_113820\\3_Login\\1_Login\\20240212_113820"/>
+         <property name="logFiles" value="D:\\BFLP\\Bootcamp LPPI\\onlineshop\\onlineshop\\Reports\\20240212_113820\\3_Login\\1_Login\\20240212_113820\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BRI - LAPTOP-GLHGBC14"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.223"/>
+         <property name="sessionId" value="653dd575cf485906e80847c61c4fd39a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/6_user/2_login" time="26.487" classname="Test Cases/6_user/2_login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:38:30 - [TEST_CASE][PASSED] - Test Cases/6_user/2_login: Test Cases/6_user/2_login
+
+12-02-2024T11:38:31 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:38:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:38:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:38:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+12-02-2024T11:38:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-02-2024T11:38:43 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:38:43 - [TEST_STEP][PASSED] - click(findTestObject("6_user/Page_Advantage Shopping/1_profile")): Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username): Text 'ruslan2' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:38:49 - [MESSAGE][PASSED] - Text 'ruslan2' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password): Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:38:51 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in")): Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:38:52 - [TEST_STEP][PASSED] - data = findTestData("2_login").getValue(1, 1): null
+
+12-02-2024T11:38:54 - [TEST_STEP][PASSED] - to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"): null
+
+12-02-2024T11:38:54 - [TEST_STEP][PASSED] - usernameFromObjectRepository = getText(to): Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:38:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:38:55 - [TEST_STEP][PASSED] - if (data.equals(usernameFromObjectRepository)): null
+
+12-02-2024T11:38:55 - [TEST_STEP][PASSED] - else: Login gagal
+
+12-02-2024T11:38:55 - [TEST_STEP][PASSED] - comment("Login gagal"): Login gagal
+
+12-02-2024T11:38:55 - [MESSAGE][INFO] - Login gagal
+
+12-02-2024T11:38:57 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6_user/2_login' .
+
+12-02-2024T11:38:57 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6_user/2_login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_user/2_login" time="22.838" classname="Test Cases/6_user/2_login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:38:57 - [TEST_CASE][PASSED] - Test Cases/6_user/2_login: Test Cases/6_user/2_login
+
+12-02-2024T11:38:57 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:38:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:38:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:38:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:39:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+12-02-2024T11:39:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-02-2024T11:39:06 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:39:06 - [TEST_STEP][PASSED] - click(findTestObject("6_user/Page_Advantage Shopping/1_profile")): Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:39:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username): Text 'ruslan3' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:39:14 - [MESSAGE][PASSED] - Text 'ruslan3' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:39:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password): Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:39:16 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in")): Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:39:16 - [TEST_STEP][PASSED] - data = findTestData("2_login").getValue(1, 1): null
+
+12-02-2024T11:39:16 - [TEST_STEP][PASSED] - to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"): null
+
+12-02-2024T11:39:17 - [TEST_STEP][PASSED] - usernameFromObjectRepository = getText(to): Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:39:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:39:18 - [TEST_STEP][PASSED] - if (data.equals(usernameFromObjectRepository)): null
+
+12-02-2024T11:39:18 - [TEST_STEP][PASSED] - else: Login gagal
+
+12-02-2024T11:39:18 - [TEST_STEP][PASSED] - comment("Login gagal"): Login gagal
+
+12-02-2024T11:39:18 - [MESSAGE][INFO] - Login gagal
+
+12-02-2024T11:39:20 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6_user/2_login' .
+
+12-02-2024T11:39:20 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6_user/2_login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_user/2_login" time="23.658" classname="Test Cases/6_user/2_login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:39:20 - [TEST_CASE][PASSED] - Test Cases/6_user/2_login: Test Cases/6_user/2_login
+
+12-02-2024T11:39:20 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:39:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:39:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:39:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:39:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+12-02-2024T11:39:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-02-2024T11:39:29 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:39:29 - [TEST_STEP][PASSED] - click(findTestObject("6_user/Page_Advantage Shopping/1_profile")): Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:39:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username): Text 'ruslan4' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:39:36 - [MESSAGE][PASSED] - Text 'ruslan4' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:39:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password): Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:39:37 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in")): Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:39:38 - [TEST_STEP][PASSED] - data = findTestData("2_login").getValue(1, 1): null
+
+12-02-2024T11:39:38 - [TEST_STEP][PASSED] - to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"): null
+
+12-02-2024T11:39:38 - [TEST_STEP][PASSED] - usernameFromObjectRepository = getText(to): Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:39:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:39:41 - [TEST_STEP][PASSED] - if (data.equals(usernameFromObjectRepository)): null
+
+12-02-2024T11:39:41 - [TEST_STEP][PASSED] - else: Login gagal
+
+12-02-2024T11:39:41 - [TEST_STEP][PASSED] - comment("Login gagal"): Login gagal
+
+12-02-2024T11:39:41 - [MESSAGE][INFO] - Login gagal
+
+12-02-2024T11:39:44 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6_user/2_login' .
+
+12-02-2024T11:39:44 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6_user/2_login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_user/2_login" time="30.288" classname="Test Cases/6_user/2_login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:39:44 - [TEST_CASE][PASSED] - Test Cases/6_user/2_login: Test Cases/6_user/2_login
+
+12-02-2024T11:39:44 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:39:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:39:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:39:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:39:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+12-02-2024T11:39:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-02-2024T11:39:51 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:39:51 - [TEST_STEP][PASSED] - click(findTestObject("6_user/Page_Advantage Shopping/1_profile")): Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:39:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username): Text 'ruslan5' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:40:03 - [MESSAGE][PASSED] - Text 'ruslan5' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password): Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:40:07 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in")): Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:40:09 - [TEST_STEP][PASSED] - data = findTestData("2_login").getValue(1, 1): null
+
+12-02-2024T11:40:09 - [TEST_STEP][PASSED] - to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"): null
+
+12-02-2024T11:40:09 - [TEST_STEP][PASSED] - usernameFromObjectRepository = getText(to): Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:40:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:40:12 - [TEST_STEP][PASSED] - if (data.equals(usernameFromObjectRepository)): null
+
+12-02-2024T11:40:12 - [TEST_STEP][PASSED] - else: Login gagal
+
+12-02-2024T11:40:12 - [TEST_STEP][PASSED] - comment("Login gagal"): Login gagal
+
+12-02-2024T11:40:12 - [MESSAGE][INFO] - Login gagal
+
+12-02-2024T11:40:14 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6_user/2_login' .
+
+12-02-2024T11:40:14 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6_user/2_login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_user/2_login" time="25.999" classname="Test Cases/6_user/2_login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:40:14 - [TEST_CASE][PASSED] - Test Cases/6_user/2_login: Test Cases/6_user/2_login
+
+12-02-2024T11:40:14 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:40:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:40:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:40:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:40:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+12-02-2024T11:40:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-02-2024T11:40:26 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:40:26 - [TEST_STEP][PASSED] - click(findTestObject("6_user/Page_Advantage Shopping/1_profile")): Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username): Text 'ruslan6' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:40:32 - [MESSAGE][PASSED] - Text 'ruslan6' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password): Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:40:34 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in")): Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:40:35 - [TEST_STEP][PASSED] - data = findTestData("2_login").getValue(1, 1): null
+
+12-02-2024T11:40:35 - [TEST_STEP][PASSED] - to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"): null
+
+12-02-2024T11:40:35 - [TEST_STEP][PASSED] - usernameFromObjectRepository = getText(to): Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:40:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:40:38 - [TEST_STEP][PASSED] - if (data.equals(usernameFromObjectRepository)): null
+
+12-02-2024T11:40:38 - [TEST_STEP][PASSED] - else: Login gagal
+
+12-02-2024T11:40:38 - [TEST_STEP][PASSED] - comment("Login gagal"): Login gagal
+
+12-02-2024T11:40:38 - [MESSAGE][INFO] - Login gagal
+
+12-02-2024T11:40:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6_user/2_login' .
+
+12-02-2024T11:40:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6_user/2_login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_user/2_login" time="20.214" classname="Test Cases/6_user/2_login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:40:40 - [TEST_CASE][PASSED] - Test Cases/6_user/2_login: Test Cases/6_user/2_login
+
+12-02-2024T11:40:40 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:40:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:40:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:40:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:40:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+12-02-2024T11:40:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-02-2024T11:40:48 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:40:48 - [TEST_STEP][PASSED] - click(findTestObject("6_user/Page_Advantage Shopping/1_profile")): Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:40:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username): Text 'ruslan7' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:40:54 - [MESSAGE][PASSED] - Text 'ruslan7' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:40:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password): Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:40:56 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:40:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in")): Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:40:57 - [TEST_STEP][PASSED] - data = findTestData("2_login").getValue(1, 1): null
+
+12-02-2024T11:40:57 - [TEST_STEP][PASSED] - to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"): null
+
+12-02-2024T11:40:57 - [TEST_STEP][PASSED] - usernameFromObjectRepository = getText(to): Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:40:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:40:58 - [TEST_STEP][PASSED] - if (data.equals(usernameFromObjectRepository)): null
+
+12-02-2024T11:40:58 - [TEST_STEP][PASSED] - else: Login gagal
+
+12-02-2024T11:40:58 - [TEST_STEP][PASSED] - comment("Login gagal"): Login gagal
+
+12-02-2024T11:40:58 - [MESSAGE][INFO] - Login gagal
+
+12-02-2024T11:41:00 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6_user/2_login' .
+
+12-02-2024T11:41:00 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6_user/2_login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_user/2_login" time="19.368" classname="Test Cases/6_user/2_login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:41:00 - [TEST_CASE][PASSED] - Test Cases/6_user/2_login: Test Cases/6_user/2_login
+
+12-02-2024T11:41:01 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:41:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:41:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:41:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:41:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+12-02-2024T11:41:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-02-2024T11:41:09 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:41:09 - [TEST_STEP][PASSED] - click(findTestObject("6_user/Page_Advantage Shopping/1_profile")): Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:41:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username): Text 'ruslan8' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:41:14 - [MESSAGE][PASSED] - Text 'ruslan8' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:41:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password): Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:41:16 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:41:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in")): Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:41:17 - [TEST_STEP][PASSED] - data = findTestData("2_login").getValue(1, 1): null
+
+12-02-2024T11:41:17 - [TEST_STEP][PASSED] - to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"): null
+
+12-02-2024T11:41:17 - [TEST_STEP][PASSED] - usernameFromObjectRepository = getText(to): Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:41:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:41:18 - [TEST_STEP][PASSED] - if (data.equals(usernameFromObjectRepository)): null
+
+12-02-2024T11:41:18 - [TEST_STEP][PASSED] - else: Login gagal
+
+12-02-2024T11:41:18 - [TEST_STEP][PASSED] - comment("Login gagal"): Login gagal
+
+12-02-2024T11:41:18 - [MESSAGE][INFO] - Login gagal
+
+12-02-2024T11:41:20 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6_user/2_login' .
+
+12-02-2024T11:41:20 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6_user/2_login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_user/2_login" time="21.318" classname="Test Cases/6_user/2_login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:41:20 - [TEST_CASE][PASSED] - Test Cases/6_user/2_login: Test Cases/6_user/2_login
+
+12-02-2024T11:41:20 - [TEST_STEP][PASSED] - ruslan.initial.openBrowser(): ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:41:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:41:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:41:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:41:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/?authuser=0#/'
+
+12-02-2024T11:41:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-02-2024T11:41:28 - [MESSAGE][PASSED] - ruslan.initial.openBrowser is PASSED
+
+12-02-2024T11:41:28 - [TEST_STEP][PASSED] - click(findTestObject("6_user/Page_Advantage Shopping/1_profile")): Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/1_profile' is clicked on
+
+12-02-2024T11:41:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"), username): Text '' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:41:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field'
+
+12-02-2024T11:41:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/6_user/Page_Advantage Shopping/20_password_login_field"), password): Text '' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:41:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/6_user/Page_Advantage Shopping/20_password_login_field'
+
+12-02-2024T11:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/6_user/Page_Advantage Shopping/17_sign_in")): Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:41:38 - [MESSAGE][PASSED] - Object: 'Object Repository/6_user/Page_Advantage Shopping/17_sign_in' is clicked on
+
+12-02-2024T11:41:38 - [TEST_STEP][PASSED] - data = findTestData("2_login").getValue(1, 1): null
+
+12-02-2024T11:41:38 - [TEST_STEP][PASSED] - to = findTestObject("Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"): null
+
+12-02-2024T11:41:38 - [TEST_STEP][PASSED] - usernameFromObjectRepository = getText(to): Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:41:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/6_user/Page_Advantage Shopping/19_username_login_field' is: ''
+
+12-02-2024T11:41:39 - [TEST_STEP][PASSED] - if (data.equals(usernameFromObjectRepository)): null
+
+12-02-2024T11:41:39 - [TEST_STEP][PASSED] - else: Login gagal
+
+12-02-2024T11:41:39 - [TEST_STEP][PASSED] - comment("Login gagal"): Login gagal
+
+12-02-2024T11:41:39 - [MESSAGE][INFO] - Login gagal
+
+12-02-2024T11:41:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6_user/2_login' .
+
+12-02-2024T11:41:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6_user/2_login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T11:38:30 - [TEST_SUITE][PASSED] - 1_Login: Test Cases/6_user/2_login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1_Login,Chrome 121.0.0.0,,,12-02-2024 11:38:30,12-02-2024 11:41:41,3m - 11.379s,PASSED
+,,,,,,,
+Test Cases/6_user/2_login,Chrome 121.0.0.0,,,12-02-2024 11:38:30,12-02-2024 11:38:57,26.487s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 11:38:31,12-02-2024 11:38:43,11.626s,PASSED
+"click(findTestObject(""6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 11:38:43,12-02-2024 11:38:47,4.233s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field""), username)",Chrome 121.0.0.0,,,12-02-2024 11:38:47,12-02-2024 11:38:49,1.311s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/20_password_login_field""), password)",Chrome 121.0.0.0,,,12-02-2024 11:38:49,12-02-2024 11:38:51,2.164s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/17_sign_in""))",Chrome 121.0.0.0,,,12-02-2024 11:38:51,12-02-2024 11:38:52,1.240s,PASSED
+"data = findTestData(""2_login"").getValue(1, 1)",Chrome 121.0.0.0,,,12-02-2024 11:38:52,12-02-2024 11:38:54,1.902s,PASSED
+"to = findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"")",Chrome 121.0.0.0,,,12-02-2024 11:38:54,12-02-2024 11:38:54,0.096s,PASSED
+usernameFromObjectRepository = getText(to),Chrome 121.0.0.0,,,12-02-2024 11:38:54,12-02-2024 11:38:55,0.582s,PASSED
+if (data.equals(usernameFromObjectRepository)),Chrome 121.0.0.0,,,12-02-2024 11:38:55,12-02-2024 11:38:55,0.028s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 11:38:55,12-02-2024 11:38:55,0.082s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 11:38:57,12-02-2024 11:38:57,0.002s,PASSED
+,,,,,,,
+Test Cases/6_user/2_login,Chrome 121.0.0.0,,,12-02-2024 11:38:57,12-02-2024 11:39:20,22.838s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 11:38:57,12-02-2024 11:39:06,9.050s,PASSED
+"click(findTestObject(""6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 11:39:06,12-02-2024 11:39:12,6.316s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field""), username)",Chrome 121.0.0.0,,,12-02-2024 11:39:12,12-02-2024 11:39:14,1.231s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/20_password_login_field""), password)",Chrome 121.0.0.0,,,12-02-2024 11:39:14,12-02-2024 11:39:16,2.017s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/17_sign_in""))",Chrome 121.0.0.0,,,12-02-2024 11:39:16,12-02-2024 11:39:16,0.644s,PASSED
+"data = findTestData(""2_login"").getValue(1, 1)",Chrome 121.0.0.0,,,12-02-2024 11:39:16,12-02-2024 11:39:16,0.111s,PASSED
+"to = findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"")",Chrome 121.0.0.0,,,12-02-2024 11:39:16,12-02-2024 11:39:17,0.143s,PASSED
+usernameFromObjectRepository = getText(to),Chrome 121.0.0.0,,,12-02-2024 11:39:17,12-02-2024 11:39:18,1.104s,PASSED
+if (data.equals(usernameFromObjectRepository)),Chrome 121.0.0.0,,,12-02-2024 11:39:18,12-02-2024 11:39:18,0.002s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 11:39:18,12-02-2024 11:39:18,0.024s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 11:39:20,12-02-2024 11:39:20,0.002s,PASSED
+,,,,,,,
+Test Cases/6_user/2_login,Chrome 121.0.0.0,,,12-02-2024 11:39:20,12-02-2024 11:39:44,23.658s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 11:39:20,12-02-2024 11:39:29,8.784s,PASSED
+"click(findTestObject(""6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 11:39:29,12-02-2024 11:39:35,5.842s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field""), username)",Chrome 121.0.0.0,,,12-02-2024 11:39:35,12-02-2024 11:39:36,1.213s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/20_password_login_field""), password)",Chrome 121.0.0.0,,,12-02-2024 11:39:36,12-02-2024 11:39:37,1.624s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/17_sign_in""))",Chrome 121.0.0.0,,,12-02-2024 11:39:37,12-02-2024 11:39:38,0.686s,PASSED
+"data = findTestData(""2_login"").getValue(1, 1)",Chrome 121.0.0.0,,,12-02-2024 11:39:38,12-02-2024 11:39:38,0.087s,PASSED
+"to = findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"")",Chrome 121.0.0.0,,,12-02-2024 11:39:38,12-02-2024 11:39:38,0.086s,PASSED
+usernameFromObjectRepository = getText(to),Chrome 121.0.0.0,,,12-02-2024 11:39:38,12-02-2024 11:39:41,3.128s,PASSED
+if (data.equals(usernameFromObjectRepository)),Chrome 121.0.0.0,,,12-02-2024 11:39:41,12-02-2024 11:39:41,0.002s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 11:39:41,12-02-2024 11:39:41,0.020s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 11:39:44,12-02-2024 11:39:44,0.003s,PASSED
+,,,,,,,
+Test Cases/6_user/2_login,Chrome 121.0.0.0,,,12-02-2024 11:39:44,12-02-2024 11:40:14,30.288s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 11:39:44,12-02-2024 11:39:51,6.977s,PASSED
+"click(findTestObject(""6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 11:39:51,12-02-2024 11:39:59,8.425s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field""), username)",Chrome 121.0.0.0,,,12-02-2024 11:39:59,12-02-2024 11:40:03,3.703s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/20_password_login_field""), password)",Chrome 121.0.0.0,,,12-02-2024 11:40:03,12-02-2024 11:40:07,4.011s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/17_sign_in""))",Chrome 121.0.0.0,,,12-02-2024 11:40:07,12-02-2024 11:40:09,1.913s,PASSED
+"data = findTestData(""2_login"").getValue(1, 1)",Chrome 121.0.0.0,,,12-02-2024 11:40:09,12-02-2024 11:40:09,0.063s,PASSED
+"to = findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"")",Chrome 121.0.0.0,,,12-02-2024 11:40:09,12-02-2024 11:40:09,0.070s,PASSED
+usernameFromObjectRepository = getText(to),Chrome 121.0.0.0,,,12-02-2024 11:40:09,12-02-2024 11:40:12,2.904s,PASSED
+if (data.equals(usernameFromObjectRepository)),Chrome 121.0.0.0,,,12-02-2024 11:40:12,12-02-2024 11:40:12,0.001s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 11:40:12,12-02-2024 11:40:12,0.012s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 11:40:14,12-02-2024 11:40:14,0.002s,PASSED
+,,,,,,,
+Test Cases/6_user/2_login,Chrome 121.0.0.0,,,12-02-2024 11:40:14,12-02-2024 11:40:40,25.999s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 11:40:14,12-02-2024 11:40:26,12.037s,PASSED
+"click(findTestObject(""6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 11:40:26,12-02-2024 11:40:31,5.086s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field""), username)",Chrome 121.0.0.0,,,12-02-2024 11:40:31,12-02-2024 11:40:32,1.084s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/20_password_login_field""), password)",Chrome 121.0.0.0,,,12-02-2024 11:40:32,12-02-2024 11:40:34,1.818s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/17_sign_in""))",Chrome 121.0.0.0,,,12-02-2024 11:40:34,12-02-2024 11:40:35,1.168s,PASSED
+"data = findTestData(""2_login"").getValue(1, 1)",Chrome 121.0.0.0,,,12-02-2024 11:40:35,12-02-2024 11:40:35,0.077s,PASSED
+"to = findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"")",Chrome 121.0.0.0,,,12-02-2024 11:40:35,12-02-2024 11:40:35,0.121s,PASSED
+usernameFromObjectRepository = getText(to),Chrome 121.0.0.0,,,12-02-2024 11:40:35,12-02-2024 11:40:38,2.412s,PASSED
+if (data.equals(usernameFromObjectRepository)),Chrome 121.0.0.0,,,12-02-2024 11:40:38,12-02-2024 11:40:38,0.001s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 11:40:38,12-02-2024 11:40:38,0.026s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 11:40:40,12-02-2024 11:40:40,0.002s,PASSED
+,,,,,,,
+Test Cases/6_user/2_login,Chrome 121.0.0.0,,,12-02-2024 11:40:40,12-02-2024 11:41:00,20.214s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 11:40:40,12-02-2024 11:40:48,7.736s,PASSED
+"click(findTestObject(""6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 11:40:48,12-02-2024 11:40:53,5.243s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field""), username)",Chrome 121.0.0.0,,,12-02-2024 11:40:53,12-02-2024 11:40:54,1.184s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/20_password_login_field""), password)",Chrome 121.0.0.0,,,12-02-2024 11:40:54,12-02-2024 11:40:56,1.958s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/17_sign_in""))",Chrome 121.0.0.0,,,12-02-2024 11:40:56,12-02-2024 11:40:57,0.754s,PASSED
+"data = findTestData(""2_login"").getValue(1, 1)",Chrome 121.0.0.0,,,12-02-2024 11:40:57,12-02-2024 11:40:57,0.097s,PASSED
+"to = findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"")",Chrome 121.0.0.0,,,12-02-2024 11:40:57,12-02-2024 11:40:57,0.093s,PASSED
+usernameFromObjectRepository = getText(to),Chrome 121.0.0.0,,,12-02-2024 11:40:57,12-02-2024 11:40:58,1.016s,PASSED
+if (data.equals(usernameFromObjectRepository)),Chrome 121.0.0.0,,,12-02-2024 11:40:58,12-02-2024 11:40:58,0.002s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 11:40:58,12-02-2024 11:40:58,0.019s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 11:41:00,12-02-2024 11:41:00,0.001s,PASSED
+,,,,,,,
+Test Cases/6_user/2_login,Chrome 121.0.0.0,,,12-02-2024 11:41:00,12-02-2024 11:41:20,19.368s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 11:41:01,12-02-2024 11:41:09,8.193s,PASSED
+"click(findTestObject(""6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 11:41:09,12-02-2024 11:41:13,4.393s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field""), username)",Chrome 121.0.0.0,,,12-02-2024 11:41:13,12-02-2024 11:41:14,1.144s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/20_password_login_field""), password)",Chrome 121.0.0.0,,,12-02-2024 11:41:14,12-02-2024 11:41:16,1.642s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/17_sign_in""))",Chrome 121.0.0.0,,,12-02-2024 11:41:16,12-02-2024 11:41:17,0.619s,PASSED
+"data = findTestData(""2_login"").getValue(1, 1)",Chrome 121.0.0.0,,,12-02-2024 11:41:17,12-02-2024 11:41:17,0.072s,PASSED
+"to = findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"")",Chrome 121.0.0.0,,,12-02-2024 11:41:17,12-02-2024 11:41:17,0.085s,PASSED
+usernameFromObjectRepository = getText(to),Chrome 121.0.0.0,,,12-02-2024 11:41:17,12-02-2024 11:41:18,0.946s,PASSED
+if (data.equals(usernameFromObjectRepository)),Chrome 121.0.0.0,,,12-02-2024 11:41:18,12-02-2024 11:41:18,0.001s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 11:41:18,12-02-2024 11:41:18,0.023s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 11:41:20,12-02-2024 11:41:20,0.002s,PASSED
+,,,,,,,
+Test Cases/6_user/2_login,Chrome 121.0.0.0,,,12-02-2024 11:41:20,12-02-2024 11:41:41,21.318s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 11:41:20,12-02-2024 11:41:28,7.507s,PASSED
+"click(findTestObject(""6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 11:41:28,12-02-2024 11:41:33,5.302s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field""), username)",Chrome 121.0.0.0,,,12-02-2024 11:41:33,12-02-2024 11:41:34,1.668s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/20_password_login_field""), password)",Chrome 121.0.0.0,,,12-02-2024 11:41:34,12-02-2024 11:41:37,2.379s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/17_sign_in""))",Chrome 121.0.0.0,,,12-02-2024 11:41:37,12-02-2024 11:41:38,0.714s,PASSED
+"data = findTestData(""2_login"").getValue(1, 1)",Chrome 121.0.0.0,,,12-02-2024 11:41:38,12-02-2024 11:41:38,0.268s,PASSED
+"to = findTestObject(""Object Repository/6_user/Page_Advantage Shopping/19_username_login_field"")",Chrome 121.0.0.0,,,12-02-2024 11:41:38,12-02-2024 11:41:38,0.173s,PASSED
+usernameFromObjectRepository = getText(to),Chrome 121.0.0.0,,,12-02-2024 11:41:38,12-02-2024 11:41:39,0.871s,PASSED
+if (data.equals(usernameFromObjectRepository)),Chrome 121.0.0.0,,,12-02-2024 11:41:39,12-02-2024 11:41:39,0.008s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 11:41:39,12-02-2024 11:41:39,0.044s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 11:41:41,12-02-2024 11:41:41,0.002s,PASSED

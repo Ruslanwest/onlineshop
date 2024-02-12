@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>1_Shop_ Now</name>
+   <name>17_sign_in</name>
    <tag></tag>
-   <elementGuidId>bc0f2453-b5d2-4774-b326-3dd1271118c0</elementGuidId>
+   <elementGuidId>007fe19d-dac5-448a-a967-398002406a47</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='speakersImg']/div/label</value>
+         <value>//button[@id='sign_in_btn']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#speakersLink</value>
+         <value>#sign_in_btn</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'speakersImg']</value>
+         <value>//*[@id = 'sign_in_btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,119 +25,127 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>9f26bd43-e0a4-403c-84e7-781bfe140d1d</webElementGuid>
+      <value>button</value>
+      <webElementGuid>98d7f396-9877-4258-b1a2-7e6d7b270948</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>speakersImg</value>
-      <webElementGuid>1e69d16b-d273-4227-8cb7-dd2bf700d946</webElementGuid>
+      <value>sign_in_btn</value>
+      <webElementGuid>c917270c-b709-4a8c-b694-0188676397ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>39c4352c-5d1a-4395-beb9-5d7f6fcf778f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>shop_nowSub roboto-regular ng-scope</value>
-      <webElementGuid>27795236-809f-4e4c-9db1-984ba13f66ba</webElementGuid>
+      <value>sec-sender-a ng-scope</value>
+      <webElementGuid>f1c4ff50-93cb-426d-822f-66c959642e0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>translate</name>
+      <name>role</name>
       <type>Main</type>
-      <value>Shop_Now</value>
-      <webElementGuid>25eb3f6c-1adf-4ea8-a70a-f992477ddf62</webElementGuid>
+      <value>button</value>
+      <webElementGuid>c5218cf0-41cf-4dc7-89ae-b2e8a2d7ecce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>senderCtrl.send()</value>
+      <webElementGuid>a73369d0-76d6-4669-9bec-cc884659e975</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shop Now</value>
-      <webElementGuid>42f5aaa1-e8ab-4744-81da-681c1022d0ab</webElementGuid>
+      <value>SIGN IN</value>
+      <webElementGuid>d1346d02-f5e0-49ae-9a4c-c3336142e712</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;speakersLink&quot;)</value>
-      <webElementGuid>9e57018b-f1bd-4dd8-9518-06a13186262b</webElementGuid>
+      <value>id(&quot;sign_in_btn&quot;)</value>
+      <webElementGuid>72ba2dee-46d3-46b5-87f5-263e4dd7ad09</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='speakersLink']</value>
-      <webElementGuid>693b0e0f-58ff-4f1c-9b8e-cd191df4f626</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='speakersImg']/div/label</value>
-      <webElementGuid>610f80b3-d50d-4d58-b677-cfd26c85fa8d</webElementGuid>
+      <value>//button[@id='sign_in_btn']</value>
+      <webElementGuid>5e39d41b-56b2-476c-b651-d7a681a7447c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SPEAKERS'])[1]/following::label[1]</value>
-      <webElementGuid>2a6c6c8f-78d7-48ce-875d-28778c9b8f55</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REMEMBER ME'])[1]/following::button[1]</value>
+      <webElementGuid>c363a703-fa58-49ec-9d09-3390ffc3d03c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEMO'])[1]/following::label[1]</value>
-      <webElementGuid>e73a24b3-7bbe-466a-8766-4236695a55fd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[2]/following::button[1]</value>
+      <webElementGuid>f67d6e76-b2b4-46b2-9c98-2de380da0474</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TABLETS'])[1]/preceding::label[1]</value>
-      <webElementGuid>ccae22ec-f2c4-4453-a7a3-87fe57c51ec6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/preceding::button[1]</value>
+      <webElementGuid>10897ff4-2801-496c-afe3-f27ab0f42db8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop Now'])[2]/preceding::label[1]</value>
-      <webElementGuid>85dfc5f3-cdb9-48c1-a61e-71e45f9b0ba2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CREATE NEW ACCOUNT'])[1]/preceding::button[1]</value>
+      <webElementGuid>a0498a7c-e6c6-4f5f-ba26-90a7f4725853</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Shop Now']/parent::*</value>
-      <webElementGuid>653f93cf-5d90-4047-846a-45072029f87f</webElementGuid>
+      <value>//*/text()[normalize-space(.)='SIGN IN']/parent::*</value>
+      <webElementGuid>8f7bd003-ba4a-449e-ba4d-d14d682be12f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/label</value>
-      <webElementGuid>066cbd35-486b-4eaa-811d-046ef0dac103</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>b757c34d-cf47-44c8-88a8-7848e5f3ba08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[@id = 'speakersLink' and (text() = 'Shop Now' or . = 'Shop Now')]</value>
-      <webElementGuid>516c2724-b480-4d6c-a664-ea488db08ddd</webElementGuid>
+      <value>//button[@id = 'sign_in_btn' and @type = 'button' and (text() = 'SIGN IN' or . = 'SIGN IN')]</value>
+      <webElementGuid>186ce346-b84c-4371-bc85-4debddb97856</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,162 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Registrasi,Chrome 121.0.0.0,,,12-02-2024 09:23:39,12-02-2024 09:31:38,7m - 59.480s,PASSED
+,,,,,,,
+Test Cases/6_user/1_registrasi,Chrome 121.0.0.0,,,12-02-2024 09:23:40,12-02-2024 09:24:39,59.139s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 09:23:41,12-02-2024 09:23:53,12.115s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 09:23:53,12-02-2024 09:23:57,3.858s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/2_create_new_account""))",Chrome 121.0.0.0,,,12-02-2024 09:23:57,12-02-2024 09:23:58,0.841s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/3_username""), username)",Chrome 121.0.0.0,,,12-02-2024 09:23:58,12-02-2024 09:24:04,5.869s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/4_email""), email)",Chrome 121.0.0.0,,,12-02-2024 09:24:04,12-02-2024 09:24:05,1.404s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/5_password""), password)",Chrome 121.0.0.0,,,12-02-2024 09:24:05,12-02-2024 09:24:07,1.868s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/6_confirm_password""), confirm_password)",Chrome 121.0.0.0,,,12-02-2024 09:24:07,12-02-2024 09:24:09,1.895s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/7_first_name""), first_name)",Chrome 121.0.0.0,,,12-02-2024 09:24:09,12-02-2024 09:24:10,1.429s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/8_last_name""), last_name)",Chrome 121.0.0.0,,,12-02-2024 09:24:10,12-02-2024 09:24:12,1.782s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/9_phone""), phone)",Chrome 121.0.0.0,,,12-02-2024 09:24:12,12-02-2024 09:24:14,1.434s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/10_country""), country, true)",Chrome 121.0.0.0,,,12-02-2024 09:24:14,12-02-2024 09:24:28,14.135s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/11_city""), city)",Chrome 121.0.0.0,,,12-02-2024 09:24:28,12-02-2024 09:24:29,1.446s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/12_address""), address)",Chrome 121.0.0.0,,,12-02-2024 09:24:29,12-02-2024 09:24:31,1.977s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/13_state""), state)",Chrome 121.0.0.0,,,12-02-2024 09:24:31,12-02-2024 09:24:33,1.956s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/14_poscal_code""), poscal_code)",Chrome 121.0.0.0,,,12-02-2024 09:24:33,12-02-2024 09:24:35,1.889s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers""))",Chrome 121.0.0.0,,,12-02-2024 09:24:35,12-02-2024 09:24:36,0.753s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/16_Register""))",Chrome 121.0.0.0,,,12-02-2024 09:24:36,12-02-2024 09:24:37,0.646s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 09:24:39,12-02-2024 09:24:39,0.002s,PASSED
+,,,,,,,
+Test Cases/6_user/1_registrasi,Chrome 121.0.0.0,,,12-02-2024 09:24:39,12-02-2024 09:26:07,1m - 28.081s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 09:24:39,12-02-2024 09:24:50,10.310s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 09:24:50,12-02-2024 09:24:56,6.942s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/2_create_new_account""))",Chrome 121.0.0.0,,,12-02-2024 09:24:56,12-02-2024 09:24:59,2.449s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/3_username""), username)",Chrome 121.0.0.0,,,12-02-2024 09:24:59,12-02-2024 09:25:04,5.234s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/4_email""), email)",Chrome 121.0.0.0,,,12-02-2024 09:25:04,12-02-2024 09:25:08,3.958s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/5_password""), password)",Chrome 121.0.0.0,,,12-02-2024 09:25:08,12-02-2024 09:25:12,3.868s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/6_confirm_password""), confirm_password)",Chrome 121.0.0.0,,,12-02-2024 09:25:12,12-02-2024 09:25:16,4.155s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/7_first_name""), first_name)",Chrome 121.0.0.0,,,12-02-2024 09:25:16,12-02-2024 09:25:20,3.924s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/8_last_name""), last_name)",Chrome 121.0.0.0,,,12-02-2024 09:25:20,12-02-2024 09:25:24,4.100s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/9_phone""), phone)",Chrome 121.0.0.0,,,12-02-2024 09:25:24,12-02-2024 09:25:28,3.925s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/10_country""), country, true)",Chrome 121.0.0.0,,,12-02-2024 09:25:28,12-02-2024 09:25:45,16.750s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/11_city""), city)",Chrome 121.0.0.0,,,12-02-2024 09:25:45,12-02-2024 09:25:49,4.006s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/12_address""), address)",Chrome 121.0.0.0,,,12-02-2024 09:25:49,12-02-2024 09:25:53,4.390s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/13_state""), state)",Chrome 121.0.0.0,,,12-02-2024 09:25:53,12-02-2024 09:25:57,3.751s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/14_poscal_code""), poscal_code)",Chrome 121.0.0.0,,,12-02-2024 09:25:57,12-02-2024 09:26:01,3.926s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers""))",Chrome 121.0.0.0,,,12-02-2024 09:26:01,12-02-2024 09:26:03,2.017s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/16_Register""))",Chrome 121.0.0.0,,,12-02-2024 09:26:03,12-02-2024 09:26:05,2.041s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 09:26:07,12-02-2024 09:26:07,0.000s,PASSED
+,,,,,,,
+Test Cases/6_user/1_registrasi,Chrome 121.0.0.0,,,12-02-2024 09:26:08,12-02-2024 09:27:02,54.353s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 09:26:08,12-02-2024 09:26:17,9.848s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 09:26:17,12-02-2024 09:26:22,4.512s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/2_create_new_account""))",Chrome 121.0.0.0,,,12-02-2024 09:26:22,12-02-2024 09:26:23,0.776s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/3_username""), username)",Chrome 121.0.0.0,,,12-02-2024 09:26:23,12-02-2024 09:26:27,3.827s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/4_email""), email)",Chrome 121.0.0.0,,,12-02-2024 09:26:27,12-02-2024 09:26:28,1.678s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/5_password""), password)",Chrome 121.0.0.0,,,12-02-2024 09:26:28,12-02-2024 09:26:30,1.954s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/6_confirm_password""), confirm_password)",Chrome 121.0.0.0,,,12-02-2024 09:26:30,12-02-2024 09:26:32,1.964s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/7_first_name""), first_name)",Chrome 121.0.0.0,,,12-02-2024 09:26:32,12-02-2024 09:26:35,2.600s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/8_last_name""), last_name)",Chrome 121.0.0.0,,,12-02-2024 09:26:35,12-02-2024 09:26:37,1.731s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/9_phone""), phone)",Chrome 121.0.0.0,,,12-02-2024 09:26:37,12-02-2024 09:26:38,1.358s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/10_country""), country, true)",Chrome 121.0.0.0,,,12-02-2024 09:26:38,12-02-2024 09:26:51,12.734s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/11_city""), city)",Chrome 121.0.0.0,,,12-02-2024 09:26:51,12-02-2024 09:26:52,1.262s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/12_address""), address)",Chrome 121.0.0.0,,,12-02-2024 09:26:52,12-02-2024 09:26:53,1.539s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/13_state""), state)",Chrome 121.0.0.0,,,12-02-2024 09:26:53,12-02-2024 09:26:55,1.962s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/14_poscal_code""), poscal_code)",Chrome 121.0.0.0,,,12-02-2024 09:26:55,12-02-2024 09:26:58,2.136s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers""))",Chrome 121.0.0.0,,,12-02-2024 09:26:58,12-02-2024 09:26:59,1.416s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/16_Register""))",Chrome 121.0.0.0,,,12-02-2024 09:26:59,12-02-2024 09:27:00,0.712s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 09:27:02,12-02-2024 09:27:02,0.004s,PASSED
+,,,,,,,
+Test Cases/6_user/1_registrasi,Chrome 121.0.0.0,,,12-02-2024 09:27:02,12-02-2024 09:27:57,54.295s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 09:27:02,12-02-2024 09:27:13,10.597s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 09:27:13,12-02-2024 09:27:18,4.595s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/2_create_new_account""))",Chrome 121.0.0.0,,,12-02-2024 09:27:18,12-02-2024 09:27:18,0.827s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/3_username""), username)",Chrome 121.0.0.0,,,12-02-2024 09:27:18,12-02-2024 09:27:23,4.723s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/4_email""), email)",Chrome 121.0.0.0,,,12-02-2024 09:27:23,12-02-2024 09:27:25,1.945s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/5_password""), password)",Chrome 121.0.0.0,,,12-02-2024 09:27:25,12-02-2024 09:27:27,2.039s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/6_confirm_password""), confirm_password)",Chrome 121.0.0.0,,,12-02-2024 09:27:27,12-02-2024 09:27:29,1.941s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/7_first_name""), first_name)",Chrome 121.0.0.0,,,12-02-2024 09:27:29,12-02-2024 09:27:31,1.789s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/8_last_name""), last_name)",Chrome 121.0.0.0,,,12-02-2024 09:27:31,12-02-2024 09:27:32,1.455s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/9_phone""), phone)",Chrome 121.0.0.0,,,12-02-2024 09:27:32,12-02-2024 09:27:34,1.487s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/10_country""), country, true)",Chrome 121.0.0.0,,,12-02-2024 09:27:34,12-02-2024 09:27:46,12.694s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/11_city""), city)",Chrome 121.0.0.0,,,12-02-2024 09:27:46,12-02-2024 09:27:48,1.332s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/12_address""), address)",Chrome 121.0.0.0,,,12-02-2024 09:27:48,12-02-2024 09:27:49,1.547s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/13_state""), state)",Chrome 121.0.0.0,,,12-02-2024 09:27:49,12-02-2024 09:27:51,1.580s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/14_poscal_code""), poscal_code)",Chrome 121.0.0.0,,,12-02-2024 09:27:51,12-02-2024 09:27:53,1.813s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers""))",Chrome 121.0.0.0,,,12-02-2024 09:27:53,12-02-2024 09:27:54,0.783s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/16_Register""))",Chrome 121.0.0.0,,,12-02-2024 09:27:54,12-02-2024 09:27:54,0.722s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 09:27:57,12-02-2024 09:27:57,0.001s,PASSED
+,,,,,,,
+Test Cases/6_user/1_registrasi,Chrome 121.0.0.0,,,12-02-2024 09:27:57,12-02-2024 09:28:56,58.489s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 09:27:57,12-02-2024 09:28:08,10.543s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 09:28:08,12-02-2024 09:28:14,6.254s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/2_create_new_account""))",Chrome 121.0.0.0,,,12-02-2024 09:28:14,12-02-2024 09:28:15,0.852s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/3_username""), username)",Chrome 121.0.0.0,,,12-02-2024 09:28:15,12-02-2024 09:28:24,9.238s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/4_email""), email)",Chrome 121.0.0.0,,,12-02-2024 09:28:24,12-02-2024 09:28:26,2.190s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/5_password""), password)",Chrome 121.0.0.0,,,12-02-2024 09:28:26,12-02-2024 09:28:28,1.848s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/6_confirm_password""), confirm_password)",Chrome 121.0.0.0,,,12-02-2024 09:28:28,12-02-2024 09:28:30,1.408s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/7_first_name""), first_name)",Chrome 121.0.0.0,,,12-02-2024 09:28:30,12-02-2024 09:28:31,1.295s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/8_last_name""), last_name)",Chrome 121.0.0.0,,,12-02-2024 09:28:31,12-02-2024 09:28:32,1.456s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/9_phone""), phone)",Chrome 121.0.0.0,,,12-02-2024 09:28:32,12-02-2024 09:28:34,1.465s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/10_country""), country, true)",Chrome 121.0.0.0,,,12-02-2024 09:28:34,12-02-2024 09:28:46,12.418s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/11_city""), city)",Chrome 121.0.0.0,,,12-02-2024 09:28:46,12-02-2024 09:28:47,1.143s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/12_address""), address)",Chrome 121.0.0.0,,,12-02-2024 09:28:47,12-02-2024 09:28:49,1.868s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/13_state""), state)",Chrome 121.0.0.0,,,12-02-2024 09:28:49,12-02-2024 09:28:51,1.472s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/14_poscal_code""), poscal_code)",Chrome 121.0.0.0,,,12-02-2024 09:28:51,12-02-2024 09:28:52,1.246s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers""))",Chrome 121.0.0.0,,,12-02-2024 09:28:52,12-02-2024 09:28:53,0.733s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/16_Register""))",Chrome 121.0.0.0,,,12-02-2024 09:28:53,12-02-2024 09:28:53,0.599s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 09:28:56,12-02-2024 09:28:56,0.000s,PASSED
+,,,,,,,
+Test Cases/6_user/1_registrasi,Chrome 121.0.0.0,,,12-02-2024 09:28:56,12-02-2024 09:29:49,52.785s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 09:28:56,12-02-2024 09:29:06,10.308s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 09:29:06,12-02-2024 09:29:11,4.550s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/2_create_new_account""))",Chrome 121.0.0.0,,,12-02-2024 09:29:11,12-02-2024 09:29:12,0.804s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/3_username""), username)",Chrome 121.0.0.0,,,12-02-2024 09:29:12,12-02-2024 09:29:16,4.777s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/4_email""), email)",Chrome 121.0.0.0,,,12-02-2024 09:29:16,12-02-2024 09:29:18,1.344s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/5_password""), password)",Chrome 121.0.0.0,,,12-02-2024 09:29:18,12-02-2024 09:29:19,1.452s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/6_confirm_password""), confirm_password)",Chrome 121.0.0.0,,,12-02-2024 09:29:19,12-02-2024 09:29:22,2.979s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/7_first_name""), first_name)",Chrome 121.0.0.0,,,12-02-2024 09:29:22,12-02-2024 09:29:24,1.680s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/8_last_name""), last_name)",Chrome 121.0.0.0,,,12-02-2024 09:29:24,12-02-2024 09:29:25,1.576s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/9_phone""), phone)",Chrome 121.0.0.0,,,12-02-2024 09:29:25,12-02-2024 09:29:27,1.987s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/10_country""), country, true)",Chrome 121.0.0.0,,,12-02-2024 09:29:27,12-02-2024 09:29:39,12.073s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/11_city""), city)",Chrome 121.0.0.0,,,12-02-2024 09:29:39,12-02-2024 09:29:40,1.077s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/12_address""), address)",Chrome 121.0.0.0,,,12-02-2024 09:29:40,12-02-2024 09:29:42,1.249s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/13_state""), state)",Chrome 121.0.0.0,,,12-02-2024 09:29:42,12-02-2024 09:29:43,1.559s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/14_poscal_code""), poscal_code)",Chrome 121.0.0.0,,,12-02-2024 09:29:43,12-02-2024 09:29:45,1.509s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers""))",Chrome 121.0.0.0,,,12-02-2024 09:29:45,12-02-2024 09:29:46,0.850s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/16_Register""))",Chrome 121.0.0.0,,,12-02-2024 09:29:46,12-02-2024 09:29:46,0.697s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 09:29:49,12-02-2024 09:29:49,0.003s,PASSED
+,,,,,,,
+Test Cases/6_user/1_registrasi,Chrome 121.0.0.0,,,12-02-2024 09:29:49,12-02-2024 09:30:44,54.770s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 09:29:49,12-02-2024 09:29:59,10.179s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 09:29:59,12-02-2024 09:30:06,6.260s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/2_create_new_account""))",Chrome 121.0.0.0,,,12-02-2024 09:30:06,12-02-2024 09:30:06,0.769s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/3_username""), username)",Chrome 121.0.0.0,,,12-02-2024 09:30:06,12-02-2024 09:30:12,5.611s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/4_email""), email)",Chrome 121.0.0.0,,,12-02-2024 09:30:12,12-02-2024 09:30:14,1.665s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/5_password""), password)",Chrome 121.0.0.0,,,12-02-2024 09:30:14,12-02-2024 09:30:15,1.459s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/6_confirm_password""), confirm_password)",Chrome 121.0.0.0,,,12-02-2024 09:30:15,12-02-2024 09:30:17,1.725s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/7_first_name""), first_name)",Chrome 121.0.0.0,,,12-02-2024 09:30:17,12-02-2024 09:30:18,1.407s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/8_last_name""), last_name)",Chrome 121.0.0.0,,,12-02-2024 09:30:18,12-02-2024 09:30:20,2.123s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/9_phone""), phone)",Chrome 121.0.0.0,,,12-02-2024 09:30:20,12-02-2024 09:30:22,1.945s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/10_country""), country, true)",Chrome 121.0.0.0,,,12-02-2024 09:30:22,12-02-2024 09:30:34,11.178s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/11_city""), city)",Chrome 121.0.0.0,,,12-02-2024 09:30:34,12-02-2024 09:30:35,1.545s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/12_address""), address)",Chrome 121.0.0.0,,,12-02-2024 09:30:35,12-02-2024 09:30:37,1.931s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/13_state""), state)",Chrome 121.0.0.0,,,12-02-2024 09:30:37,12-02-2024 09:30:39,1.878s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/14_poscal_code""), poscal_code)",Chrome 121.0.0.0,,,12-02-2024 09:30:39,12-02-2024 09:30:40,1.329s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers""))",Chrome 121.0.0.0,,,12-02-2024 09:30:40,12-02-2024 09:30:41,0.840s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/16_Register""))",Chrome 121.0.0.0,,,12-02-2024 09:30:41,12-02-2024 09:30:42,0.654s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 09:30:44,12-02-2024 09:30:44,0.000s,PASSED
+,,,,,,,
+Test Cases/6_user/1_registrasi,Chrome 121.0.0.0,,,12-02-2024 09:30:44,12-02-2024 09:31:38,53.899s,PASSED
+ruslan.initial.openBrowser(),Chrome 121.0.0.0,,,12-02-2024 09:30:44,12-02-2024 09:30:57,12.790s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/1_profile""))",Chrome 121.0.0.0,,,12-02-2024 09:30:57,12-02-2024 09:31:02,4.576s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/2_create_new_account""))",Chrome 121.0.0.0,,,12-02-2024 09:31:02,12-02-2024 09:31:03,0.768s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/3_username""), username)",Chrome 121.0.0.0,,,12-02-2024 09:31:03,12-02-2024 09:31:07,4.199s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/4_email""), email)",Chrome 121.0.0.0,,,12-02-2024 09:31:07,12-02-2024 09:31:08,1.568s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/5_password""), password)",Chrome 121.0.0.0,,,12-02-2024 09:31:08,12-02-2024 09:31:10,2.109s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/6_confirm_password""), confirm_password)",Chrome 121.0.0.0,,,12-02-2024 09:31:10,12-02-2024 09:31:12,1.482s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/7_first_name""), first_name)",Chrome 121.0.0.0,,,12-02-2024 09:31:12,12-02-2024 09:31:14,2.020s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/8_last_name""), last_name)",Chrome 121.0.0.0,,,12-02-2024 09:31:14,12-02-2024 09:31:16,1.995s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/9_phone""), phone)",Chrome 121.0.0.0,,,12-02-2024 09:31:16,12-02-2024 09:31:18,1.779s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/10_country""), country, true)",Chrome 121.0.0.0,,,12-02-2024 09:31:18,12-02-2024 09:31:29,11.275s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/11_city""), city)",Chrome 121.0.0.0,,,12-02-2024 09:31:29,12-02-2024 09:31:30,1.154s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/12_address""), address)",Chrome 121.0.0.0,,,12-02-2024 09:31:30,12-02-2024 09:31:32,1.416s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/13_state""), state)",Chrome 121.0.0.0,,,12-02-2024 09:31:32,12-02-2024 09:31:33,1.517s,PASSED
+"setText(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/14_poscal_code""), poscal_code)",Chrome 121.0.0.0,,,12-02-2024 09:31:33,12-02-2024 09:31:34,1.377s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/15_check_exclusive_offers""))",Chrome 121.0.0.0,,,12-02-2024 09:31:34,12-02-2024 09:31:35,0.885s,PASSED
+"click(findTestObject(""Object Repository/6_user/Page_Advantage Shopping/16_Register""))",Chrome 121.0.0.0,,,12-02-2024 09:31:35,12-02-2024 09:31:36,0.699s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 09:31:38,12-02-2024 09:31:38,0.000s,PASSED

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74eed6f2-9c67-45a8-81ad-dfee4f33b302</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>caa0b255-4200-4e50-a128-21b3023a23cb</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/2_login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>caa0b255-4200-4e50-a128-21b3023a23cb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>7da0aea3-507c-4d09-868d-06388f678006</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>caa0b255-4200-4e50-a128-21b3023a23cb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>6d60217d-50bd-4fb1-9e2b-1b6e9026be5c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8733957e-8bf7-440e-9a97-51f882b182b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ruslan2\r\n'</defaultValue>
+      <description></description>
+      <id>7da0aea3-507c-4d09-868d-06388f678006</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'P@ssw0rd\r\n'</defaultValue>
+      <description></description>
+      <id>6d60217d-50bd-4fb1-9e2b-1b6e9026be5c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('2_login')</defaultValue>
+      <description></description>
+      <id>8733957e-8bf7-440e-9a97-51f882b182b9</id>
+      <masked>false</masked>
+      <name>data</name>
+   </variable>
+</TestCaseEntity>

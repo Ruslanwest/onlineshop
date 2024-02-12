@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>1_Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>b2376092-159a-434f-9fca-ff1acddd9586</testSuiteGuid>
+   <testCaseLink>
+      <guid>c1bf4324-9227-415c-9536-d7bec36db695</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>findTestData('2_login')</defaultValue>
+         <description></description>
+         <id>7da0aea3-507c-4d09-868d-06388f678006</id>
+         <masked>false</masked>
+         <name>username</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/6_user/2_login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d0bfc977-0b67-4512-bd9a-c0079c6d8111</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/2_login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d0bfc977-0b67-4512-bd9a-c0079c6d8111</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>7da0aea3-507c-4d09-868d-06388f678006</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d0bfc977-0b67-4512-bd9a-c0079c6d8111</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>6d60217d-50bd-4fb1-9e2b-1b6e9026be5c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d0bfc977-0b67-4512-bd9a-c0079c6d8111</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>8733957e-8bf7-440e-9a97-51f882b182b9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

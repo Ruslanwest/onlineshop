@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1_cart</name>
+   <tag></tag>
+   <elementGuidId>4d43a96b-28a5-4f87-aa11-a54a52a45faa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menuCart > path</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;menuCart&quot;)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>b7164e42-aae8-420e-8bcc-e25140ddee5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#313131</value>
+      <webElementGuid>2191ee6d-2ceb-490a-9504-b77af6e442ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2
+        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7
+        H7.8L6,6z</value>
+      <webElementGuid>f5a6a9f6-079f-44ef-b76b-a727a7382902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menuCart&quot;)</value>
+      <webElementGuid>bd2c05ac-a5f5-4cc9-8e0a-951ce429f8ee</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

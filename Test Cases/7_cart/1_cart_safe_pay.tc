@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1_cart_safe_pay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36dd3edc-588f-4780-abec-f0ab25ff65ea</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d9c5555c-d2e7-4b31-a08b-d90f61f5ef5e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/2_login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d9c5555c-d2e7-4b31-a08b-d90f61f5ef5e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>ff5dabb1-654b-4c66-8bbf-a7008ee0b6bd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d9c5555c-d2e7-4b31-a08b-d90f61f5ef5e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>5fb2aa29-b78c-41ef-bc51-0da171340429</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('2_login')</defaultValue>
+      <description></description>
+      <id>ff5dabb1-654b-4c66-8bbf-a7008ee0b6bd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('2_login')</defaultValue>
+      <description></description>
+      <id>5fb2aa29-b78c-41ef-bc51-0da171340429</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

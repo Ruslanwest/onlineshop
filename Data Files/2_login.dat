@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>2_login</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0bface21-9f54-4801-b1f7-68d7a5ca4a51</dataFileGUID>
+   <dataSourceUrl>Data Files/register.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>login</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

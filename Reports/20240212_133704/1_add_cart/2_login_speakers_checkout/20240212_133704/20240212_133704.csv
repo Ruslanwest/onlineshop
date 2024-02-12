@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2_login_speakers_checkout,Chrome 121.0.0.0,,,12-02-2024 13:37:20,12-02-2024 13:38:06,46.017s,ERROR
+,,,,,,,
+Test Cases/1_our_product/2_Login - checkout,Chrome 121.0.0.0,,,12-02-2024 13:37:22,12-02-2024 13:38:06,44.951s,ERROR
+"callTestCase(findTestCase(""6_user/2_login""), [""username"":findTestData(""2_login""), ""password"":findTestData(""2_login""), ""data"":findTestData(""2_login"")], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,12-02-2024 13:37:24,12-02-2024 13:38:04,40.381s,ERROR
+Video,Chrome 121.0.0.0,,,12-02-2024 13:38:06,12-02-2024 13:38:06,0.003s,PASSED

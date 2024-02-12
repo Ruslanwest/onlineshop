@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>1_register</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e230c2e7-1270-4db9-8cf9-c6f2a91591df</dataFileGUID>
+   <dataSourceUrl>Data Files/register.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>register</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

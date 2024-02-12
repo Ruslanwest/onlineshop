@@ -1,143 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>1_Shop_ Now</name>
+   <name>7_pay_now</name>
    <tag></tag>
-   <elementGuidId>bc0f2453-b5d2-4774-b326-3dd1271118c0</elementGuidId>
+   <elementGuidId>a2c9a62c-2cd7-4231-aff3-24ceb1c6d9e7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='speakersImg']/div/label</value>
+         <value>//button[@id='pay_now_btn_SAFEPAY']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#speakersLink</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'speakersImg']</value>
+         <value>#pay_now_btn_SAFEPAY</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>9f26bd43-e0a4-403c-84e7-781bfe140d1d</webElementGuid>
+      <value>button</value>
+      <webElementGuid>2735e455-ebd7-412f-9c23-3d27a9470950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>speakersImg</value>
-      <webElementGuid>1e69d16b-d273-4227-8cb7-dd2bf700d946</webElementGuid>
+      <value>pay_now_btn_SAFEPAY</value>
+      <webElementGuid>c69b23bc-ec54-4d02-8d7c-e09b48aa4ae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>33270058-1dc8-43e4-9a72-4648e7238bb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>shop_nowSub roboto-regular ng-scope</value>
-      <webElementGuid>27795236-809f-4e4c-9db1-984ba13f66ba</webElementGuid>
+      <value>sec-sender-a ng-scope</value>
+      <webElementGuid>2b9bf28a-8f59-4bdc-89c0-9c0f53c93491</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>translate</name>
+      <name>role</name>
       <type>Main</type>
-      <value>Shop_Now</value>
-      <webElementGuid>25eb3f6c-1adf-4ea8-a70a-f992477ddf62</webElementGuid>
+      <value>button</value>
+      <webElementGuid>fbc81d5c-30b9-4e14-aa2b-538ac9f332d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>senderCtrl.send()</value>
+      <webElementGuid>81815a71-031e-4893-bc84-e016102764b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shop Now</value>
-      <webElementGuid>42f5aaa1-e8ab-4744-81da-681c1022d0ab</webElementGuid>
+      <value>PAY NOW</value>
+      <webElementGuid>2690e501-1ad9-47ca-b3ca-57fb1e7245bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;speakersLink&quot;)</value>
-      <webElementGuid>9e57018b-f1bd-4dd8-9518-06a13186262b</webElementGuid>
+      <value>id(&quot;pay_now_btn_SAFEPAY&quot;)</value>
+      <webElementGuid>49e6fa1b-01fa-4d94-a7d1-585c97865bcf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='speakersLink']</value>
-      <webElementGuid>693b0e0f-58ff-4f1c-9b8e-cd191df4f626</webElementGuid>
+      <value>//button[@id='pay_now_btn_SAFEPAY']</value>
+      <webElementGuid>4b661026-4dd7-4676-ae99-1000caf0be58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='speakersImg']/div/label</value>
-      <webElementGuid>610f80b3-d50d-4d58-b677-cfd26c85fa8d</webElementGuid>
+      <value>//sec-sender[@id='payNowSPDrtv']/button</value>
+      <webElementGuid>e7d88e41-b5e0-4022-a9c1-f426c7121ac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SPEAKERS'])[1]/following::label[1]</value>
-      <webElementGuid>2a6c6c8f-78d7-48ce-875d-28778c9b8f55</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to shipping details'])[1]/following::button[1]</value>
+      <webElementGuid>0b228b69-4984-4015-a512-4d567255b105</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEMO'])[1]/following::label[1]</value>
-      <webElementGuid>e73a24b3-7bbe-466a-8766-4236695a55fd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save changes in profile for future use'])[2]/following::button[1]</value>
+      <webElementGuid>d361d854-27b2-4877-8103-3e7ea10d17c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TABLETS'])[1]/preceding::label[1]</value>
-      <webElementGuid>ccae22ec-f2c4-4453-a7a3-87fe57c51ec6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MasterCredit'])[1]/preceding::button[1]</value>
+      <webElementGuid>17af0c5e-c8f2-4b8d-813a-3ee519273e8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop Now'])[2]/preceding::label[1]</value>
-      <webElementGuid>85dfc5f3-cdb9-48c1-a61e-71e45f9b0ba2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
+      <webElementGuid>90544f70-70cb-4d6e-9117-90b7d6f13fa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Shop Now']/parent::*</value>
-      <webElementGuid>653f93cf-5d90-4047-846a-45072029f87f</webElementGuid>
+      <value>//*/text()[normalize-space(.)='PAY NOW']/parent::*</value>
+      <webElementGuid>0f16695a-07e7-44b6-9fde-2ae863e70365</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/label</value>
-      <webElementGuid>066cbd35-486b-4eaa-811d-046ef0dac103</webElementGuid>
+      <value>//label/sec-sender/button</value>
+      <webElementGuid>72fd9f02-d307-47d9-ba6e-c2f1d1dacfac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[@id = 'speakersLink' and (text() = 'Shop Now' or . = 'Shop Now')]</value>
-      <webElementGuid>516c2724-b480-4d6c-a664-ea488db08ddd</webElementGuid>
+      <value>//button[@id = 'pay_now_btn_SAFEPAY' and @type = 'button' and (text() = 'PAY NOW' or . = 'PAY NOW')]</value>
+      <webElementGuid>12460a71-7f24-474a-bcf9-349e2d3ab394</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
